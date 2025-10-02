@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "rpi_pico")(type "KiCad")(uri "${KIPRJMOD}/rpi_pico.kicad_sym")(options "")(descr ""))
+  (lib (name "tdr2_traco")(type "KiCad")(uri "${KIPRJMOD}/TDR_2-1211.kicad_sym")(options "")(descr ""))
+  (lib (name "tdr2_1222_traco")(type "KiCad")(uri "${KIPRJMOD}/TDR_2-1222.kicad_sym")(options "")(descr ""))
+  (lib (name "lt3042_breakout")(type "KiCad")(uri "${KIPRJMOD}/lt3042_breakout.kicad_sym")(options "")(descr ""))
+)
