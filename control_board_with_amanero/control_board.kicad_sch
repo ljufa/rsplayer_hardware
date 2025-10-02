@@ -9729,17 +9729,6 @@
 		)
 		(uuid 17cdac9b-a125-4eb1-97db-f30cd7de2378)
 	)
-	(text "Konektor\n1 - RW - MOSI - GPIO10\n2 - GND - trenutno povezano na 20,1,14\n3 - trenutno nije povezano ali moze za +5V - VDD - napajanje kola\n4 - rst - RST - GPIO25\n5 - E  - SCLK - GPIO11\n6 - RS - GPI08\n\nTrenutno van konektora:\n3 - 19 - osvetljaj ekrana +5V\n8 - 20 - osvetljaj ekrana GND, moze tranzistor za on/off\n\n"
-		(exclude_from_sim no)
-		(at 34.544 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "181b55dc-8628-42b9-95b8-f9fad2b47ce8")
-	)
 	(text "Amanero version"
 		(exclude_from_sim no)
 		(at 366.014 258.826 0)
