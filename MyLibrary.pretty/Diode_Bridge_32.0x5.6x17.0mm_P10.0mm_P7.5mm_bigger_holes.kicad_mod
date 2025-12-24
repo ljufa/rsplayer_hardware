@@ -1,4 +1,4 @@
-(footprint "Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm"
+(footprint "Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm_bigger_holes"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm"
+	(property "Value" "Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm_bigger_holes"
 		(at 12.6 4 180)
 		(layer "F.Fab")
 		(uuid "f40fde6c-475f-494c-95b3-263f3735f553")
@@ -247,38 +247,38 @@
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
-		(size 2 2)
-		(drill 1.2)
+		(size 2.8 2.8)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "24399e96-20ce-4c70-8718-84cfc0869c48")
 	)
 	(pad "2" thru_hole circle
 		(at 7.5 0)
-		(size 2 2)
-		(drill 1.2)
+		(size 2.8 2.8)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "94e68fd5-9ad0-4a88-ac7a-662b5c5e6666")
 	)
 	(pad "3" thru_hole circle
 		(at 15 0)
-		(size 2 2)
-		(drill 1.2)
+		(size 2.8 2.8)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "52e1dda0-e42b-46c8-9478-f665ffc594d3")
 	)
 	(pad "4" thru_hole circle
 		(at 25 0)
-		(size 2 2)
-		(drill 1.2)
+		(size 2.8 2.8)
+		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9b48cdf0-42fc-4ace-a4cd-d6f692c57380")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

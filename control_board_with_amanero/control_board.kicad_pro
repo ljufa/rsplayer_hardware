@@ -61,15 +61,11 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|142680241|356069346|8926384d-31a3-40ce-a959-06cf70970cfe|cf05a42c-c15a-4360-b43a-ac4d758054f3",
+          "malformed_courtyard|132993500|344902000|8926384d-31a3-40ce-a959-06cf70970cfe|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "courtyards_overlap|247103857|192010012|1192cf80-af24-4bfe-a59c-391ed8003b0b|1ac2162a-92cb-49d8-a23a-24ade01de76d",
-          ""
-        ],
-        [
-          "hole_to_hole|81300000|372607500|bddeb8a1-86df-4cac-aea2-126b494883ed|e5fb9583-8074-4246-a172-ece537cd948b",
+          "malformed_courtyard|144697500|375102000|8926384d-31a3-40ce-a959-06cf70970cfe|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -601,7 +597,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "bom.csv",
+    "bom_export_filename": "control_board.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -632,13 +628,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -650,7 +646,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -662,6 +658,42 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
           "show": false
         }
       ],
@@ -682,7 +714,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.25,

@@ -1,0 +1,6 @@
+[submodule "rsplayer_hardware_docs_private"]
+	path = rsplayer_hardware_docs_private
+	url = git@github.com:ljufa/rsplayer_hardware_docs_private.git
+[submodule "LT3045_breakout"]
+	path = LT3045_breakout
+	url = https://github.com/PatrickBaus/LT3045_breakout.git
