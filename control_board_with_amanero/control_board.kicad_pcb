@@ -246,6 +246,7 @@
 	(net 121 "Net-(J8-Pin_1)")
 	(net 122 "Net-(J15-Pin_2)")
 	(net 123 "unconnected-(HS1-Pad1)")
+	(net 124 "unconnected-(HS1-Pad1)_1")
 	(footprint "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "03eef508-7263-45f8-b393-120604b3b693")
@@ -4615,7 +4616,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "0R"
 			(at 3.81 3.62 0)
 			(layer "F.Fab")
 			(uuid "002109e7-b607-4abd-8c81-2991280f58ce")
@@ -5204,7 +5205,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100R"
 			(at 0 1.83 270)
 			(layer "F.Fab")
 			(uuid "3a42ce59-1133-4291-8620-dc7ec4301030")
@@ -6153,7 +6154,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "~"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "71be9131-0e84-41a8-aa58-52e169121482")
@@ -7605,7 +7606,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "~"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "f74b61f9-e1d5-4ac7-a24a-94bc763890ed")
@@ -7704,7 +7705,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 1 3.75 270)
 			(layer "F.Fab")
 			(uuid "24750d86-b476-4fdb-82db-b9e7af866110")
@@ -11758,7 +11759,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "482ef2a6-4f4c-425e-a196-16dad70963c5")
@@ -11851,7 +11852,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "f9dec936-6d05-4612-b841-d3971755b530")
+			(uuid "ba1b1042-5693-443a-b73c-e958fc051ce3")
 		)
 		(pad "1" connect circle
 			(at 0 0)
@@ -11861,7 +11862,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "f9dec936-6d05-4612-b841-d3971755b530")
+			(uuid "330c6d2e-9a5b-433a-a0b3-51777a4fe5cd")
 		)
 		(embedded_fonts no)
 	)
@@ -14746,7 +14747,7 @@
 				)
 			)
 		)
-		(property "Value" "GND3"
+		(property "Value" "~"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "60b0fa7e-ebd4-457f-aa10-352a1a06d2a9")
@@ -14839,7 +14840,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "e6bf6d5a-60d7-4cc3-9c5d-b8170c948055")
+			(uuid "f3c06ee2-f640-45cd-b860-f467ead9eb8b")
 		)
 		(pad "1" connect circle
 			(at 0 0)
@@ -14849,7 +14850,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "e6bf6d5a-60d7-4cc3-9c5d-b8170c948055")
+			(uuid "a0c1fbb0-e457-4a16-8c2c-86852e4022f0")
 		)
 		(embedded_fonts no)
 	)
@@ -15921,7 +15922,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "3f33fd25-15f0-4fa5-89b5-1b901009c65e")
+			(uuid "98dd06a1-3954-4449-b0b7-8903f080f349")
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
@@ -15931,7 +15932,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "3f33fd25-15f0-4fa5-89b5-1b901009c65e")
+			(uuid "873fcdb0-ad6f-4772-9900-371225517b04")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
@@ -16134,7 +16135,7 @@
 				)
 			)
 		)
-		(property "Value" "GND3"
+		(property "Value" "~"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "84bc0806-2a0f-49d8-97d1-87fa15860dbf")
@@ -16227,7 +16228,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "0c74c39a-f00e-4573-9463-d8a24889ee76")
+			(uuid "7191ded4-f01e-4575-9198-903576eaea96")
 		)
 		(pad "1" connect circle
 			(at 0 0)
@@ -16237,7 +16238,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "0c74c39a-f00e-4573-9463-d8a24889ee76")
+			(uuid "248b4264-9247-4402-bb1c-111abcce0519")
 		)
 		(embedded_fonts no)
 	)
@@ -16593,7 +16594,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "06700318-64ff-4d91-87dc-746604fcc727")
+			(uuid "8e3894d0-ea70-448e-b7f1-55bfdbe27b1e")
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
@@ -16603,7 +16604,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "06700318-64ff-4d91-87dc-746604fcc727")
+			(uuid "9c10c070-c21a-469a-9829-9a118d11190d")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
@@ -16930,7 +16931,7 @@
 			(pinfunction "INP")
 			(pintype "power_in")
 			(solder_paste_margin -0.025)
-			(uuid "16961686-c99a-465a-89b9-25edf300ab1a")
+			(uuid "1f690ea8-1907-4667-9299-d35eb23d288b")
 		)
 		(pad "2" smd rect
 			(at -1.76 -0.5 270)
@@ -16950,7 +16951,7 @@
 			(pinfunction "EN")
 			(pintype "input")
 			(solder_paste_margin -0.025)
-			(uuid "6e12a2d8-5262-4450-87b8-8d292cebc533")
+			(uuid "cfe60bdd-2818-4f0f-b3a6-7b35b4e361e4")
 		)
 		(pad "3" smd rect
 			(at -1.76 0 270)
@@ -16970,7 +16971,7 @@
 			(pinfunction "NR/SS")
 			(pintype "passive")
 			(solder_paste_margin -0.025)
-			(uuid "dac82400-c545-4984-a613-d215a6e751b1")
+			(uuid "d5ff51ab-d766-41d4-82a9-17e6c1c05961")
 		)
 		(pad "4" smd rect
 			(at -1.76 0.5 270)
@@ -16990,7 +16991,7 @@
 			(pinfunction "GND")
 			(pintype "power_in")
 			(solder_paste_margin -0.025)
-			(uuid "babecba5-9ace-42d3-bc4b-71cbd30f9d1c")
+			(uuid "788d76d4-6d68-444b-adc5-d6fb82a17501")
 		)
 		(pad "5" smd rect
 			(at -1.76 1 270)
@@ -17010,7 +17011,7 @@
 			(pinfunction "INN")
 			(pintype "power_in")
 			(solder_paste_margin -0.025)
-			(uuid "51d12b4c-25a4-4f53-a99a-697613e29235")
+			(uuid "2bc603ee-7675-4db8-acfc-03fa430bfdee")
 		)
 		(pad "6" smd oval
 			(at 1.475 1 270)
@@ -17030,7 +17031,7 @@
 			(pinfunction "OUTN")
 			(pintype "power_out")
 			(solder_paste_margin -0.025)
-			(uuid "64761b3b-0352-48ec-8873-2444b3db0c45")
+			(uuid "4dae6123-6a11-4591-b8a0-819d1bc3e22a")
 		)
 		(pad "7" smd oval
 			(at 1.475 0.5 270)
@@ -17050,7 +17051,7 @@
 			(pinfunction "FBN")
 			(pintype "input")
 			(solder_paste_margin -0.025)
-			(uuid "c56722c2-5948-4b94-be1e-22b03ab810c0")
+			(uuid "cfed44e0-b5eb-47b0-b05b-b0c98c4c95ad")
 		)
 		(pad "8" smd oval
 			(at 1.475 0 270)
@@ -17070,7 +17071,7 @@
 			(pinfunction "BUF")
 			(pintype "output")
 			(solder_paste_margin -0.025)
-			(uuid "daeac289-59be-4a47-9cbe-19d934a5bd05")
+			(uuid "26e3425b-adc2-43cd-928c-ecd6a2d0d658")
 		)
 		(pad "9" smd oval
 			(at 1.475 -0.5 270)
@@ -17090,7 +17091,7 @@
 			(pinfunction "FBP")
 			(pintype "input")
 			(solder_paste_margin -0.025)
-			(uuid "6e15e612-f53d-4982-af87-560d3da0bc70")
+			(uuid "2abf2f4b-7a67-4687-997a-aadf750aa999")
 		)
 		(pad "10" smd oval
 			(at 1.475 -1 270)
@@ -17110,7 +17111,7 @@
 			(pinfunction "OUTP")
 			(pintype "power_out")
 			(solder_paste_margin -0.025)
-			(uuid "eade65b9-324d-4507-b4dc-b6b58f2da6e3")
+			(uuid "5e77c349-048c-4c88-b8d6-1333ca1f7a32")
 		)
 		(pad "11" thru_hole circle
 			(at -0.5 -0.75 270)
@@ -17132,7 +17133,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "bdd99adc-853d-4f28-9e5b-9acc4ce9af8b")
 		)
 		(pad "11" smd rect
 			(at -0.45 -0.635 270)
@@ -17141,7 +17142,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "53a32c5e-864f-4fa3-ae33-ce463e22ebbc")
 		)
 		(pad "11" smd rect
 			(at -0.45 0.635 270)
@@ -17150,7 +17151,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "0565c03c-cfcf-42b2-903a-acc2a89b9e62")
 		)
 		(pad "11" smd rect
 			(at -0.25 -1.63 270)
@@ -17159,7 +17160,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "c738d205-bbbd-4144-b357-27d65f323486")
 		)
 		(pad "11" smd rect
 			(at -0.25 -1.55 270)
@@ -17168,7 +17169,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "a38f49c8-a586-4e11-8a0f-e2ef7e0fea78")
 		)
 		(pad "11" smd rect
 			(at -0.25 1.55 270)
@@ -17177,7 +17178,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "e4efd4ba-4b62-42de-9520-648fe8a1f1a3")
 		)
 		(pad "11" smd rect
 			(at -0.25 1.63 270)
@@ -17186,7 +17187,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "474bd014-4c0d-47d5-86c7-36782d3fc03b")
 		)
 		(pad "11" thru_hole circle
 			(at 0 0 270)
@@ -17197,7 +17198,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "22d4d21d-6151-40e3-a6cf-13166f75dddc")
 		)
 		(pad "11" smd rect
 			(at 0 0 270)
@@ -17206,7 +17207,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "96a0359c-db48-4f1a-850e-2fd69377f568")
 		)
 		(pad "11" smd rect
 			(at 0 0 270)
@@ -17215,7 +17216,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "6ac334b5-63cc-4ef4-9dfe-6d709b4429c2")
 		)
 		(pad "11" smd rect
 			(at 0.25 -1.63 270)
@@ -17224,7 +17225,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "68c9ada9-e227-4821-9235-45a8bf2b61d1")
 		)
 		(pad "11" smd rect
 			(at 0.25 -1.55 270)
@@ -17233,7 +17234,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "95967415-33aa-406c-af53-fc8a3e9542af")
 		)
 		(pad "11" smd rect
 			(at 0.25 1.55 270)
@@ -17242,7 +17243,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "a5f463f0-cd79-498e-9b28-cb81ec2c9bf4")
 		)
 		(pad "11" smd rect
 			(at 0.25 1.63 270)
@@ -17251,7 +17252,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "27ed21fb-4491-4201-947d-ef545ac608ab")
 		)
 		(pad "11" smd rect
 			(at 0.45 -0.635 270)
@@ -17260,7 +17261,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "885760d5-841a-405f-ba77-4daa77b9c4f0")
 		)
 		(pad "11" smd rect
 			(at 0.45 0.635 270)
@@ -17269,7 +17270,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "dfdf171d-4c35-485b-aef5-f1a4807e93aa")
 		)
 		(pad "11" thru_hole circle
 			(at 0.5 -0.75 270)
@@ -17280,7 +17281,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "96702213-60bb-45a4-9b43-99b09f7361a0")
 		)
 		(pad "11" thru_hole circle
 			(at 0.5 0.75 270)
@@ -17291,7 +17292,7 @@
 			(net 32 "GND3")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ea616b02-6b4d-48ed-8ed4-823b83548bdb")
+			(uuid "cd34edee-013c-4df0-b946-55f630c9b839")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/Texas_S-PVSON-N10.step"
@@ -23820,7 +23821,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 1 3.75 180)
 			(layer "F.Fab")
 			(uuid "1c66c97c-1bdb-4ef0-9dab-229d41f2f0b2")
@@ -28266,7 +28267,7 @@
 			(net 32 "GND3")
 			(pinfunction "Pin_21")
 			(pintype "passive")
-			(uuid "db834c5b-f0aa-4b82-8424-d1424b0b0163")
+			(uuid "8255d926-5958-4518-8da0-ab244d5df9bf")
 		)
 		(pad "22" thru_hole rect
 			(at 56.8834 -48.3088 270)
@@ -28288,7 +28289,7 @@
 			(net 85 "+3.3VA DAC_TVDD_3v3")
 			(pinfunction "Pin_22")
 			(pintype "passive")
-			(uuid "858b03e1-cf19-4cec-9d10-350e781328b8")
+			(uuid "689e3518-dca9-4e58-92f5-68464f3245da")
 		)
 		(pad "23" thru_hole oval
 			(at 56.8834 -40.7096 270)
@@ -28310,7 +28311,7 @@
 			(net 32 "GND3")
 			(pinfunction "Pin_23")
 			(pintype "passive")
-			(uuid "f25239db-674b-464a-8ea7-5c297ded73b5")
+			(uuid "30c3afa8-0d6c-415f-8289-881dfc18207a")
 		)
 		(pad "24" thru_hole rect
 			(at 56.8834 -38.1696 270)
@@ -28332,7 +28333,7 @@
 			(net 91 "+3.3VA DAC_AVDD_3v3")
 			(pinfunction "Pin_24")
 			(pintype "passive")
-			(uuid "a8dd46d3-4265-43f4-a36e-8deab0f4bf04")
+			(uuid "b8fab940-8007-4214-aa3c-3e39fce11ee1")
 		)
 		(pad "25" thru_hole oval
 			(at 56.8834 -29.1618 270)
@@ -28354,7 +28355,7 @@
 			(net 32 "GND3")
 			(pinfunction "Pin_25")
 			(pintype "passive")
-			(uuid "20601cb7-efc4-41de-a794-d95b7444be3e")
+			(uuid "bfa340f6-60c1-4032-af87-a6a01750606f")
 		)
 		(pad "26" thru_hole rect
 			(at 56.8834 -26.6218 270)
@@ -28376,7 +28377,7 @@
 			(net 25 "+5VA_DAC_VREFH_5V")
 			(pinfunction "Pin_26")
 			(pintype "passive")
-			(uuid "3ec3863c-7ddc-4486-9a23-d2b0741449ca")
+			(uuid "507a96c7-40ea-422c-b826-aef93f33cfd1")
 		)
 		(pad "27" thru_hole rect
 			(at 49.8602 1.9558)
@@ -28398,7 +28399,7 @@
 			(net 32 "GND3")
 			(pinfunction "Pin_27")
 			(pintype "passive")
-			(uuid "4056dcae-3199-42ca-ae1b-59f155357acd")
+			(uuid "a5eb1dc4-8bd7-4f5f-a9b3-853463ccdcd8")
 		)
 		(pad "28" thru_hole oval
 			(at 47.3202 1.9558)
@@ -28420,7 +28421,7 @@
 			(net 57 "/MUT_OUT_L")
 			(pinfunction "Pin_28")
 			(pintype "passive")
-			(uuid "42b5a716-9a33-4497-ad71-980cd9a3064d")
+			(uuid "7993e061-9e4a-43bd-88e8-eb9902d969c2")
 		)
 		(pad "29" thru_hole rect
 			(at 32.8676 1.9558)
@@ -28442,7 +28443,7 @@
 			(net 84 "+12V")
 			(pinfunction "Pin_29")
 			(pintype "passive")
-			(uuid "44bd6fb6-b18f-43cc-9de9-ffb928d8acaf")
+			(uuid "eb6f20be-5c6d-4c54-8f87-889e82679341")
 		)
 		(pad "30" thru_hole oval
 			(at 30.3276 1.9558)
@@ -28464,7 +28465,7 @@
 			(net 32 "GND3")
 			(pinfunction "Pin_30")
 			(pintype "passive")
-			(uuid "1a93f564-8680-4c44-a001-2abae66268a6")
+			(uuid "37389312-6f54-4449-a064-b6110c0752d2")
 		)
 		(pad "31" thru_hole oval
 			(at 27.7876 1.9558)
@@ -28486,7 +28487,7 @@
 			(net 83 "-12V")
 			(pinfunction "Pin_31")
 			(pintype "passive")
-			(uuid "e0b98d42-fb17-47a4-9d35-c8fabb8589f7")
+			(uuid "f203ff30-8948-4499-9e86-240c266f57f4")
 		)
 		(pad "32" thru_hole rect
 			(at 13.4434 13.0326)
@@ -28508,7 +28509,7 @@
 			(net 32 "GND3")
 			(pinfunction "Pin_32")
 			(pintype "passive")
-			(uuid "070e626a-ea99-4b40-9bda-12e855f1e921")
+			(uuid "4b6684c3-896c-401b-97b1-5bb7cec4b7d4")
 		)
 		(pad "33" thru_hole oval
 			(at 10.9034 13.0326)
@@ -28530,7 +28531,7 @@
 			(net 53 "/MUT_OUT_R")
 			(pinfunction "Pin_33")
 			(pintype "passive")
-			(uuid "ee84c64b-9803-46ef-b63c-2ffe0106beb0")
+			(uuid "58246c6b-59e7-41d8-b101-62e1691e430a")
 		)
 		(group ""
 			(uuid "64350c1d-a4d1-4b84-b13d-b2bacb4bbc30")
@@ -33985,9 +33986,9 @@
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 123 "unconnected-(HS1-Pad1)")
+			(net 124 "unconnected-(HS1-Pad1)_1")
 			(pintype "passive+no_connect")
-			(uuid "0485b834-1a97-4671-9a4e-6fd94875dbfe")
+			(uuid "a30d5a7c-e794-4be2-984f-3813d14a7c18")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm.step"
@@ -35903,7 +35904,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "~"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "96c02d60-378f-4161-9a02-63341f3148db")
@@ -35996,7 +35997,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "e5fb9583-8074-4246-a172-ece537cd948b")
+			(uuid "de292857-2402-4c3b-8064-17f805762975")
 		)
 		(pad "1" connect circle
 			(at 0 0)
@@ -36006,7 +36007,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "e5fb9583-8074-4246-a172-ece537cd948b")
+			(uuid "80895082-e239-4e8d-883a-2a72d63e1ca3")
 		)
 		(embedded_fonts no)
 	)
@@ -36385,7 +36386,7 @@
 				)
 			)
 		)
-		(property "Value" "12uH"
+		(property "Value" "8.2uH"
 			(at 0 4.7 270)
 			(layer "F.Fab")
 			(uuid "08a1cfb3-d5bb-4467-8be0-0830743d6f83")
@@ -37010,7 +37011,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "f415dd67-a85c-41e5-987b-374a81e32200")
+			(uuid "1a1b5ade-4f1f-4cf5-9cce-7f6a47bd4408")
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
@@ -37020,7 +37021,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "f415dd67-a85c-41e5-987b-374a81e32200")
+			(uuid "59e43b26-ceaf-4659-914a-a1e2521ce3eb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
@@ -38171,7 +38172,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "~"
 			(at 0 4.15 0)
 			(layer "F.Fab")
 			(uuid "f972eafd-469b-4673-a3d1-26da8e3a96c5")
@@ -41610,7 +41611,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "954e634d-47a4-4005-91aa-de380e9a3bfc")
+			(uuid "e2af2055-9519-47a3-a4d5-826e85dde50e")
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
@@ -41620,7 +41621,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "954e634d-47a4-4005-91aa-de380e9a3bfc")
+			(uuid "59287b04-b253-443e-b0aa-77626f0fbf85")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
@@ -43984,7 +43985,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "470R"
 			(at 0 -1.83 270)
 			(layer "B.Fab")
 			(uuid "550f8f69-9a54-477d-8d31-9a66b143caa7")
@@ -44494,7 +44495,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "300R"
 			(at 0 -1.83 0)
 			(layer "B.Fab")
 			(uuid "bd078df7-69b7-4e37-ae85-5495067688cd")
@@ -44698,7 +44699,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 0 -1.83 270)
 			(layer "B.Fab")
 			(uuid "446834fb-19d9-4ae2-9ce5-5ed32d1a9e42")
@@ -45208,7 +45209,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 0 -1.83 0)
 			(layer "B.Fab")
 			(uuid "b117b0f0-69c1-4fa6-bcdf-12ed89b9ac7d")

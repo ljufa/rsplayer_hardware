@@ -33,15 +33,11 @@ This repository is structured into several directories, each containing a specif
 *   **Multi-Rail Linear PSU:** On-board rectification and regulation generating separate clean rails for digital (3.3V), analog, and op-amp stages.
 *   **Smart Power Control:** Relay-controlled AC mains switching allows for standby modes and remote power-on capabilities.
 
+## Future Roadmap
 
-## Schematics
-![Schematic Page 1](control_board_schematics-1.png)
-![Schematic Page 2](control_board_schematics-2.png)
-
-## PCB
-![top](control_board_top.png)
-![bottom](control_board_bot.png)
-
+The project is evolving to become a universal high-fidelity audio platform. Planned improvements include:
+*   **Expanded Interface Support:** Adding compatibility for additional **USB-to-I2S** boards beyond the Amanero series.
+*   **Universal DAC Support:** Developing adapters and firmware logic to support a wider variety of **DAC chips and boards** (e.g., ESS Sabre, Burr-Brown), allowing users to choose their preferred sound signature.
 
 ## Related Projects
 The RSPlayer is a multi-repository project:

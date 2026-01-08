@@ -13934,7 +13934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 57.15 87.6299 0)
 			(effects
 				(font
@@ -16398,7 +16398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 31.75 105.3521 0)
 			(effects
 				(font
@@ -17093,7 +17093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 57.15 102.8699 0)
 			(show_name yes)
 			(effects
@@ -17954,7 +17954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 57.15 113.0299 0)
 			(effects
 				(font
@@ -18225,7 +18225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 31.75 96.4621 0)
 			(effects
 				(font
@@ -19769,7 +19769,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 31.75 87.5721 0)
 			(effects
 				(font
@@ -19834,7 +19834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 31.75 113.0299 0)
 			(show_name yes)
 			(effects
