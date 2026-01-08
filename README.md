@@ -42,6 +42,8 @@ This repository is structured into several directories, each containing a specif
 ![bottom](control_board_with_amanero/pcb_bot.png)
 ![lpf_top](lpf_ak4497/dual/pcb_top.png)
 ![lpf_dm_top](lpf_ak4497/dual_mono/pcb_top.png)
+![lt3042_top](LT3042_breakout/pcb_top.png)
+
 
 ## Future Roadmap
 The project is evolving to become a universal high-fidelity audio platform. Planned improvements include:
