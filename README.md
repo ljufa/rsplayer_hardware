@@ -33,8 +33,17 @@ This repository is structured into several directories, each containing a specif
 *   **Multi-Rail Linear PSU:** On-board rectification and regulation generating separate clean rails for digital (3.3V), analog, and op-amp stages.
 *   **Smart Power Control:** Relay-controlled AC mains switching allows for standby modes and remote power-on capabilities.
 
-## Future Roadmap
+## Schematics
+![Schematic Page 1](control_board_with_amanero/schematics_board.png)
+![Schematic Page 2](control_board_with_amanero/schematics_psu.png)
 
+## PCB
+![top](control_board_with_amanero/pcb_top.png)
+![bottom](control_board_with_amanero/pcb_bot.png)
+![lpf_top](lpf_ak4497/dual/pcb_top.png)
+![lpf_dm_top](lpf_ak4497/dual_mono/pcb_top.png)
+
+## Future Roadmap
 The project is evolving to become a universal high-fidelity audio platform. Planned improvements include:
 *   **Expanded Interface Support:** Adding compatibility for additional **USB-to-I2S** boards beyond the Amanero series.
 *   **Universal DAC Support:** Developing adapters and firmware logic to support a wider variety of **DAC chips and boards** (e.g., ESS Sabre, Burr-Brown), allowing users to choose their preferred sound signature.
